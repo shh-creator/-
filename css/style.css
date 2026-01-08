@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #003366;   /* Navy Blue */
+  --accent-color: #F4C430;    /* Gold */
+  --bg-color: #FFFFFF;        /* White */
+  --text-color: #333333;      /* Dark Gray */
+}
 body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin: 0; backround: #f4f6f8
 }
 header {
@@ -17,3 +23,4 @@ nav a {
   background: white;
 
 }
+
