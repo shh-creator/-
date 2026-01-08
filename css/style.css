@@ -4,6 +4,43 @@
   --bg-color: #FFFFFF;        /* White */
   --text-color: #333333;      /* Dark Gray */
 }
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  color: var(--accent-color);
+}
+
+button {
+  background-color: var(--accent-color);
+  border: none;
+  padding: 10px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+:root {
+  --primary-color: #003366;   /* Navy Blue */
+  --accent-color: #F4C430;    /* Gold */
+  --bg-color: #FFFFFF;        /* White */
+  --text-color: #333333;      /* Dark Gray */
+}
 body {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin: 0; backround: #f4f6f8
 }
 header {
@@ -23,4 +60,5 @@ nav a {
   background: white;
 
 }
+
 
