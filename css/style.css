@@ -8,7 +8,8 @@ body {:root {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
+
   margin: 0;
 }
 
@@ -60,5 +61,6 @@ nav a {
   background: white;
 
 }
+
 
 
